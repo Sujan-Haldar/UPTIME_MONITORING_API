@@ -127,7 +127,7 @@ handler._user.put = (requestObject, cb) => {
                             if(lastName){
                                 user.lastName = lastName;
                             }
-                            if(firstName){
+                            if(password){
                                 user.password = hashString(password);
                             }
                             datalib.update("users",phone,user,(err)=>{
@@ -149,7 +149,7 @@ handler._user.put = (requestObject, cb) => {
                     })
                 }else{
                     cb(400, {
-                        error : "You have a problem in b your request.."
+                        error : "You have a problem in your request.."
                     }); 
                 }
             }else{
