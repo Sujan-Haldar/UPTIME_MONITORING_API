@@ -1,1 +1,1 @@
-{"id":"19k6xkz3oe2nrrb8zlyg","phone":"1234567890","protocol":"http","url":"google.com","method":"GET","sucessCodes":[200,201,301],"timeoutSeconds":3,"state":"up","lastChcked":1691948553550}
+{"id":"19k6xkz3oe2nrrb8zlyg","phone":"1234567890","protocol":"http","url":"google.com","method":"GET","sucessCodes":[200,201,301],"timeoutSeconds":3,"state":"down","lastChcked":1692899081453}
